@@ -61,12 +61,12 @@ rm "$tmpfile"
 
 # Configuring Nginx&CertBot
 sudo apt-get update
-sudo apt-get install software-properites-common
+sudo apt-get install software-properties-common
 sudo add-apt-repository universe
 sudo apt-get update
 sudo apt-get install certbot python3-certbot-nginx
 
-wget https://pastebin.com/raw/CRtJDhCH
+wget https://pastebin.com/raw/NYZ6KjSV
 mv CRtJDhCH $WordURL
 mv $WordURL /etc/nginx/sites-available
 sudo ln -s /etc/nginx/sites-available/$WordURL /etc/nginx/sites-enabled
