@@ -14,11 +14,6 @@ read -p 'Press Enter to Continue'
 
 
 # Creating wordpress database
-
-echo 'Login required for SQL to create the database'
-read -p 'SQL Username: ' SQLUser
-read -p 'SQL Password: ' SQLPass
-
 RanPass=$(openssl rand -base64 16)
 read -p "Your random SQL Password for WordPress Database: $RanPass"
 
