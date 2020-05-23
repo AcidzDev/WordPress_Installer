@@ -51,12 +51,7 @@ sudo ./installer.sh
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+Once the installer has finished, navigate to your web site URL to complete the wordpress install
 
 
 <!-- LICENSE -->
