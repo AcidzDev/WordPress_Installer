@@ -62,7 +62,7 @@ sudo apt-get update
 sudo apt-get install certbot python3-certbot-nginx
 
 wget https://pastebin.com/raw/NYZ6KjSV
-mv CRtJDhCH $WordURL
+mv NYZ6KjSV $WordURL
 mv $WordURL /etc/nginx/sites-available
 sudo ln -s /etc/nginx/sites-available/$WordURL /etc/nginx/sites-enabled
 
